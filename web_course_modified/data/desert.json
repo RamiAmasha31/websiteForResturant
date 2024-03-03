@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Malaibiyah",
+        "description": "Malaibiyah with Taif rose and pistachio",
+        "price": 20,
+        "imgSrc": "https://scontent.ftlv1-1.fna.fbcdn.net/v/t39.30808-6/418954026_388494643704899_4956766405734954036_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_ohc=x2Pl5W7W-l8AX86dEmy&_nc_ht=scontent.ftlv1-1.fna&oh=00_AfB74EbcHR2QA_tqwxTS61OYzsqWkN59gky-WRHWtBTHkQ&oe=65E61187"
+    },
+    {
+        "id": 3,
+        "title": "Crimson Harmony Delight",
+        "description": "A Fusion of Beetroot and Tofu Bliss with Cranberries, Honeycake, and Verjus Symphony",
+        "price": 25,
+        "imgSrc": "https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/article_1200_800/public/2023-08/Coda_iced_beetroot_photo_claudia_goedke.jpg.webp?itok=1g-nx-In"
+    },
+    {
+        "id": 2,
+        "title": "Yougurt",
+        "description": "Baobab ice cream with cassava, hibiscus, ginger, mint, and sesame.",
+        "price": 20,
+        "imgSrc": "https://scontent.ftlv1-1.fna.fbcdn.net/v/t39.30808-6/419051717_388944360326594_1638756059843737958_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=3635dc&_nc_ohc=5oSQHi2Gh5cAX_ZmZi-&_nc_ht=scontent.ftlv1-1.fna&oh=00_AfBQsgR2D69ciWY1ac1w_rKC941ggQ_nBGZSX7J_Ntzhw&oe=65E54DAB"
+    }
+]
