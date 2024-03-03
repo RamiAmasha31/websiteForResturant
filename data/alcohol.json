@@ -1,0 +1,30 @@
+[
+    {
+
+      "title": "INVISIBLE",
+      "description": "A sophisticated cocktail that contains cherry liqueur gin and herbal liqueur with hints of cocoa and coffee.",
+      "price": 15,
+      "imgSrc": "https://images.rest.co.il/Customers/80365907/c57dd7074cfc4d19bae2d95ccc8ad26a.jpg"
+    },
+    {
+
+      "title": "CREAM ON TOP",
+      "description": "A cocktail based on mixed whiskey and tonka nut syrup that comes from South America with unique flavors of vanilla, pistachio and coffee served with red wine whipped cream and spices. A sweet and spicy cocktail with a delicate complexity accompanied by the flavors of sangria.",
+      "price": 20,
+      "imgSrc": "https://images.rest.co.il/Customers/80365907/a319698f950c4149b937e1540daad44a.jpg"
+    },
+    {
+
+      "title": "HEMINGWAY IN LONDON",
+      "description": "A gin-based cocktail accompanied by grapefruit cordial and a special lemon concentration with a salt water compound. Citrus cocktail, sour, slightly herbaceous and salty.",
+      "price": 25,
+      "imgSrc": "https://images.rest.co.il/Customers/80365907/a3734a9690af4eb78de82e7069bd6ee7.jpg"
+    },
+    {
+
+      "title": "COAL SUGAR",
+      "description": "A beet-infused rum-based cocktail combined with Italian liqueur, almond syrup and passionfruit. A sour and citrusy cocktail with sweet carnivorous flavors.",
+      "price": 20,
+      "imgSrc": "https://images.rest.co.il/Customers/80365907/1a7fc921125b452ab692e8d14602f66c.jpg"
+    }
+  ]

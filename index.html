@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="styles/styles.css">
+    
+    <title>Flavor Voyage</title>
+
+</head>
+
+
+<body class="bg-gray-100">
+   
+    <div class="container mx-auto p-8">
+        
+        <div id="mobile-menu-container">
+
+            <button  id="close-btn" class="text-white text-3xl absolute top-4 right-4">&times;</button>
+
+            <span class="text-2xl font-bold text-white">Flavor Voyage</span>
+            <a href="#hero-section" class="hover:text-gray-300  ">Home</a>
+            <a href="#menu-section" class="hover:text-gray-300 try ">Menu</a>
+            <a href="#drinks_menu_item"  class="text-gray-300 hidden menu_item ">Drinks</a>
+            <a href="#dishes_menu_item"  class="text-gray-300 hidden menu_item ">Dishes</a>
+            <a href="#alcohol_menu_item"  class="text-gray-300 hidden menu_item ">Alcohol</a>
+            <a href="#about-section" class="hover:text-gray-300  ">About</a>
+            <a href="#reservations-section" class="hover:text-gray-300  ">Reservations</a>
+            <a href="#gallery-section" class="hover:text-gray-300  ">Gallery</a>
+            <a href="#catering-section" class="hover:text-gray-300  ">Catering</a>
+            <a href="#private-events-section" class="hover:text-gray-300  ">Private Events</a>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav class="bg-gray-800 text-white p-4 rounded-lg">
+            <div class="flex justify-between items-center">
+                <span class="text-2xl font-bold">Flavor Voyage</span>
+                <!-- Responsive Navigation Menu -->
+                <div class="space-x-4 md:hidden">
+                    <button  id="mobile-menu-button"  class="text-gray-300 hover:text-gray-400 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+                <!-- Hidden Navigation Items on Small Screens -->
+                <div id="mobile-menu" class="hidden md:flex space-x-4 section   ">
+                    <a href="#hero-section" class="hover:text-gray-300  ">Home</a>
+                    <a href="#menu-section" class="hover:text-gray-300 try ">Menu
+                        <div id="dropaNav" class="dropdown-content transform -translate-x-5 ">
+                            <div class="clickable-div " data-section="#drinks_menu_item">Drinks</div>
+                            <div class="clickable-div " data-section="#dishes_menu_item">Dishes</div>
+                            <div class="clickable-div " data-section="#alcohol_menu_item">Alcohol</div>
+                        </div>
+                    </a>
+                    <a href="#about-section" class="hover:text-gray-300  ">About</a>
+                    <a href="#reservations-section" class="hover:text-gray-300  ">Reservations</a>
+                    <a href="#gallery-section" class="hover:text-gray-300  ">Gallery</a>
+                    <a href="#catering-section" class="hover:text-gray-300  ">Catering</a>
+                    <a href="#private-events-section" class="hover:text-gray-300  ">Private Events</a>
+                </div>
+            </div>
+        </nav>
+           
+            <section id="hero-section" class="mt-8 section"></section>
+            <section id="menu-section" class="mt-8 text-center hidden-section section">
+                    <h2 class="text-3xl font-bold mb-4 text-center">Menu</h2>
+                    <p class="text-gray-700 mb-4">Elevate your events with our catering services. Whether it's a corporate gathering, wedding, or any special occasion, Flavor Voyage is here to provide a culinary experience your guests won't forget.</p>
+                    <div id="dishes_menu_item" class="hidden-section"></div>
+                    <div id="drinks_menu_item" class="hidden-section"></div>
+                    <div id="alcohol_menu_item" class="hidden-section"></div>
+            </section>
+
+            <section id="about-section" class="mt-8 text-center hidden-section section"></section>
+
+            <section id="reservations-section" class="mt-8 text-center hidden-section section"></section>
+
+            <section id="gallery-section" class="mt-8 justify-center items-center text-center hidden-section section"></section>
+
+            <section id="catering-section" class="mt-8 text-center hidden-section section"></section>
+
+            <section id="private-events-section" class="mt-8 text-center hidden-section section"></section>
+
+
+    
+        </div>
+        <script type="module" src="./scripts/index.js"></script>
+
+</body>
+
+</html>
+
